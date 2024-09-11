@@ -1,0 +1,1 @@
+SUBSYSTEM=="block",KERNEL == "sda1" ,ATTRS{vendor}=="Kingston",ACTION=="add", RUN+="/usr/local/bin/trigger.sh"

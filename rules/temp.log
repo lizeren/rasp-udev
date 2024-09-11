@@ -1,0 +1,275 @@
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[11802]: Unloaded link configuration context.
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[11803]: Unloaded link configuration context.
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[11801]: Unloaded link configuration context.
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[11800]: Unloaded link configuration context.
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Worker [11800] exited
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Worker [11801] exited
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Worker [11802] exited
+Sep 11 11:03:35 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Worker [11803] exited
+Sep 11 11:03:39 lizeren-US-Desktop-Aegis-RS sudo[11811]:  lizeren : TTY=pts/2 ; PWD=/home/lizeren ; USER=root ; COMMAND=/bin/journalctl -f
+Sep 11 11:03:39 lizeren-US-Desktop-Aegis-RS sudo[11811]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 11 11:03:42 lizeren-US-Desktop-Aegis-RS kernel: usb 1-7: new high-speed USB device number 10 using xhci_hcd
+Sep 11 11:03:42 lizeren-US-Desktop-Aegis-RS kernel: usb 2-7: new SuperSpeed Gen 1 USB device number 6 using xhci_hcd
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7: Device (SEQNUM=21347, ACTION=add) is queued
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Validate module index
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Check if link configuration needs reloading.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Successfully forked off 'n/a' as PID 11814.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7: Worker [11814] is forked for processing SEQNUM=21347.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Processing device (SEQNUM=21347, ACTION=add)
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7:1.0: Device (SEQNUM=21348, ACTION=add) is queued
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: host4: Device (SEQNUM=21349, ACTION=add) is queued
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: host4: Device (SEQNUM=21350, ACTION=add) is queued
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7:1.0: Device (SEQNUM=21351, ACTION=bind) is queued
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7: Device (SEQNUM=21352, ACTION=bind) is queued
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/50-udev-default.rules:13 Importing properties from results of builtin command 'usb_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/50-udev-default.rules:13 Importing properties from results of builtin command 'hwdb --subsystem=usb'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/50-udev-default.rules:48 MODE 0664
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/60-drm.rules:3 Importing properties from results of builtin command 'path_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/69-libmtp.rules:2685 Running PROGRAM 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Starting 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: usb 2-7: New USB device found, idVendor=0951, idProduct=1666, bcdDevice= 1.10
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: usb 2-7: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: usb 2-7: Product: DataTraveler 3.0
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: usb 2-7: Manufacturer: Kingston
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: usb 2-7: SerialNumber: 08606E6B6896B020181E01E0
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: usb-storage 2-7:1.0: USB Mass Storage device detected
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS kernel: scsi host4: usb-storage 2-7:1.0
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11818.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS mtp-probe[11818]: checking bus 2, device 6: "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7"
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS mtp-probe[11818]: bus: 2, device: 6 was not an MTP device
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6'(out) '0'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Process 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6' succeeded.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Handling device node '/dev/bus/usb/002/006', devnum=c189:133
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Setting permissions /dev/bus/usb/002/006, uid=0, gid=0, mode=0664
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Creating symlink '/dev/char/189:133' to '../bus/usb/002/006'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: sd-device: Created db file '/run/udev/data/c189:133' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Device (SEQNUM=21347, ACTION=add) processed
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: sd-device-monitor: Passed 766 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7:1.0: sd-device-monitor: Passed 294 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Processing device (SEQNUM=21348, ACTION=add)
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/50-udev-default.rules:14 Importing properties from results of builtin command 'hwdb --subsystem=usb'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/60-drm.rules:3 Importing properties from results of builtin command 'path_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/60-libgphoto2-6.rules:9 Importing properties from results of builtin command 'usb_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Failed to access usb_interface: No such file or directory
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/60-libgphoto2-6.rules:9 Failed to run builtin 'usb_id': No such file or directory
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/80-drivers.rules:5 RUN 'kmod load $env{MODALIAS}'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: sd-device: Created db file '/run/udev/data/+usb:2-7:1.0' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Running built-in command "kmod load usb:v0951p1666d0110dc00dsc00dp00ic08isc06ip50in00"
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Loading module: usb:v0951p1666d0110dc00dsc00dp00ic08isc06ip50in00
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Module 'uas' is already loaded
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Module 'usb_storage' is already loaded
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Device (SEQNUM=21348, ACTION=add) processed
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: sd-device-monitor: Passed 488 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: host4: sd-device-monitor: Passed 189 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: host4: Processing device (SEQNUM=21349, ACTION=add)
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: host4: Device (SEQNUM=21349, ACTION=add) processed
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: host4: sd-device-monitor: Passed 189 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: host4: sd-device-monitor: Passed 192 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: host4: Processing device (SEQNUM=21350, ACTION=add)
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: host4: Device (SEQNUM=21350, ACTION=add) processed
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: host4: sd-device-monitor: Passed 192 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7:1.0: sd-device-monitor: Passed 314 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Processing device (SEQNUM=21351, ACTION=bind)
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/50-udev-default.rules:14 Importing properties from results of builtin command 'hwdb --subsystem=usb'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/60-drm.rules:3 Importing properties from results of builtin command 'path_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/60-libgphoto2-6.rules:9 Importing properties from results of builtin command 'usb_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Failed to access usb_interface: No such file or directory
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: /lib/udev/rules.d/60-libgphoto2-6.rules:9 Failed to run builtin 'usb_id': No such file or directory
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: sd-device: Created db file '/run/udev/data/+usb:2-7:1.0' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: Device (SEQNUM=21351, ACTION=bind) processed
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: sd-device-monitor: Passed 489 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 2-7: sd-device-monitor: Passed 290 byte to netlink monitor
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Processing device (SEQNUM=21352, ACTION=bind)
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/50-udev-default.rules:13 Importing properties from results of builtin command 'usb_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/50-udev-default.rules:13 Importing properties from results of builtin command 'hwdb --subsystem=usb'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/60-drm.rules:3 Importing properties from results of builtin command 'path_id'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: /lib/udev/rules.d/69-libmtp.rules:2685 Running PROGRAM 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Starting 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11826.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS mtp-probe[11826]: checking bus 2, device 6: "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7"
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS mtp-probe[11826]: bus: 2, device: 6 was not an MTP device
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6'(out) '0'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Process 'mtp-probe /sys/devices/pci0000:00/0000:00:14.0/usb2/2-7 2 6' succeeded.
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Handling device node '/dev/bus/usb/002/006', devnum=c189:133
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Preserve already existing symlink '/dev/char/189:133' to '../bus/usb/002/006'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: sd-device: Created db file '/run/udev/data/c189:133' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7'
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: Device (SEQNUM=21352, ACTION=bind) processed
+Sep 11 11:03:43 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7: sd-device-monitor: Passed 767 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: target4:0:0: Device (SEQNUM=21353, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: target4:0:0: sd-device-monitor: Passed 203 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Device (SEQNUM=21354, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Device (SEQNUM=21355, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Device (SEQNUM=21356, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: sg0: Device (SEQNUM=21357, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: target4:0:0: Processing device (SEQNUM=21353, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Device (SEQNUM=21358, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: target4:0:0: Device (SEQNUM=21353, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: target4:0:0: sd-device-monitor: Passed 203 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: sd-device-monitor: Passed 232 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Processing device (SEQNUM=21354, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: /lib/udev/rules.d/50-udev-default.rules:14 Importing properties from results of builtin command 'hwdb --subsystem=scsi'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: No entry found from hwdb.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: /lib/udev/rules.d/50-udev-default.rules:14 Failed to run builtin 'hwdb --subsystem=scsi': No data available
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: path '[module/sg]' is '/sys/module/sg'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: /lib/udev/rules.d/80-drivers.rules:5 RUN 'kmod load $env{MODALIAS}'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Running built-in command "kmod load scsi:t-0x00"
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Loading module: scsi:t-0x00
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Module 'sd_mod' is built in
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Device (SEQNUM=21354, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: sd-device-monitor: Passed 242 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: sd-device-monitor: Passed 218 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Processing device (SEQNUM=21355, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Successfully forked off 'n/a' as PID 11827.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Worker [11827] is forked for processing SEQNUM=21356.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Successfully forked off 'n/a' as PID 11828.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: sg0: Worker [11828] is forked for processing SEQNUM=21357.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11827]: 4:0:0:0: Processing device (SEQNUM=21356, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: Successfully forked off 'n/a' as PID 11829.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Worker [11829] is forked for processing SEQNUM=21358.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: Processing device (SEQNUM=21357, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: Processing device (SEQNUM=21358, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11827]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11827]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Device (SEQNUM=21355, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: /lib/udev/rules.d/50-udev-default.rules:70 GROUP 6
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: sd-device-monitor: Passed 218 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11827]: 4:0:0:0: Device (SEQNUM=21356, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11827]: 4:0:0:0: sd-device-monitor: Passed 214 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: Handling device node '/dev/sg0', devnum=c21:0
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: Setting permissions /dev/sg0, uid=0, gid=6, mode=0660
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: Creating symlink '/dev/char/21:0' to '../sg0'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: sd-device: Created empty file '/run/udev/data/c21:0' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/host4/target4:0:0/4:0:0:0/scsi_generic/sg0'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: Device (SEQNUM=21357, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11828]: sg0: sd-device-monitor: Passed 250 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: Handling device node '/dev/bsg/4:0:0:0', devnum=c244:0
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: Preserve permissions of /dev/bsg/4:0:0:0, uid=0, gid=0, mode=0600
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: Creating symlink '/dev/char/244:0' to '../bsg/4:0:0:0'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: sd-device: Created empty file '/run/udev/data/c244:0' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/host4/target4:0:0/4:0:0:0/bsg/4:0:0:0'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: Device (SEQNUM=21358, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11829]: 4:0:0:0: sd-device-monitor: Passed 245 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: scsi 4:0:0:0: Direct-Access     Kingston DataTraveler 3.0 PMAP PQ: 0 ANSI: 6
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: sd 4:0:0:0: Attached scsi generic sg0 type 0
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: sd 4:0:0:0: [sda] 60555264 512-byte logical blocks: (31.0 GB/28.9 GiB)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: sd 4:0:0:0: [sda] Write Protect is off
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: sd 4:0:0:0: [sda] Mode Sense: 45 00 00 00
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: sd 4:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 8:0: Device (SEQNUM=21359, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 8:0: sd-device-monitor: Passed 139 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 8:0: Processing device (SEQNUM=21359, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 8:0: Device (SEQNUM=21359, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 8:0: sd-device-monitor: Passed 139 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: sda: Device (SEQNUM=21360, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: sda: sd-device-monitor: Passed 248 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: sda1: Device (SEQNUM=21361, ACTION=add) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Processing device (SEQNUM=21360, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel:  sda: sda1
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/50-udev-default.rules:62 GROUP 6
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/60-persistent-storage.rules:63 Importing properties from results of builtin command 'usb_id'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 2-7:1.0: if_class:8 protocol:6
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/60-persistent-storage.rules:68 LINK 'disk/by-id/usb-Kingston_DataTraveler_3.0_08606E6B6896B020181E01E0-0:0'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: Device (SEQNUM=21362, ACTION=bind) is queued
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/60-persistent-storage.rules:92 Importing properties from results of builtin command 'path_id'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/60-persistent-storage.rules:94 LINK 'disk/by-path/pci-0000:00:14.0-usb-0:7:1.0-scsi-0:0:0:0'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/60-persistent-storage.rules:109 Importing properties from results of builtin command 'blkid'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Probe /dev/sda with raid and offset=0
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS kernel: sd 4:0:0:0: [sda] Attached SCSI removable disk
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/66-snapd-autoimport.rules:3 RUN '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/%k'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /etc/udev/rules.d/80-local.rules:1 RUN '/usr/local/bin/trigger.sh'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: /lib/udev/rules.d/85-hdparm.rules:1 RUN '/lib/udev/hdparm'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Handling device node '/dev/sda', devnum=b8:0
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Setting permissions /dev/sda, uid=0, gid=6, mode=0660
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Creating symlink '/dev/block/8:0' to '../sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Creating symlink '/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_08606E6B6896B020181E01E0-0:0' to '../../sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Creating symlink '/dev/disk/by-path/pci-0000:00:14.0-usb-0:7:1.0-scsi-0:0:0:0' to '../../sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: sd-device: Created db file '/run/udev/data/b8:0' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/host4/target4:0:0/4:0:0:0/block/sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Running command "/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda"
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Starting '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11830.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda'(err) 'auto-import is disabled on classic'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' succeeded.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Running command "/usr/local/bin/trigger.sh"
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Starting '/usr/local/bin/trigger.sh'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11836.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Process '/usr/local/bin/trigger.sh' succeeded.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Running command "/lib/udev/hdparm"
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Starting '/lib/udev/hdparm'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11838.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Process '/lib/udev/hdparm' succeeded.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Adding watch on '/dev/sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: sd-device: Created db file '/run/udev/data/b8:0' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/host4/target4:0:0/4:0:0:0/block/sda'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: Device (SEQNUM=21360, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda: sd-device-monitor: Passed 955 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: sda1: sd-device-monitor: Passed 267 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Processing device (SEQNUM=21361, ACTION=add)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/50-udev-default.rules:62 GROUP 6
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/60-persistent-storage.rules:69 LINK 'disk/by-id/usb-Kingston_DataTraveler_3.0_08606E6B6896B020181E01E0-0:0-part1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/60-persistent-storage.rules:95 LINK 'disk/by-path/pci-0000:00:14.0-usb-0:7:1.0-scsi-0:0:0:0-part1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/60-persistent-storage.rules:109 Importing properties from results of builtin command 'blkid'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Probe /dev/sda1 with raid and offset=0
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/60-persistent-storage.rules:114 LINK 'disk/by-uuid/76E9-C114'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/60-persistent-storage.rules:115 LINK 'disk/by-label/ESD-USB'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/60-persistent-storage.rules:123 LINK 'disk/by-partuuid/7c663098-01'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /lib/udev/rules.d/66-snapd-autoimport.rules:3 RUN '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/%k'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: /etc/udev/rules.d/80-local.rules:1 RUN '/usr/local/bin/trigger.sh'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Handling device node '/dev/sda1', devnum=b8:1
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Setting permissions /dev/sda1, uid=0, gid=6, mode=0660
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Creating symlink '/dev/block/8:1' to '../sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Creating symlink '/dev/disk/by-uuid/76E9-C114' to '../../sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Creating symlink '/dev/disk/by-partuuid/7c663098-01' to '../../sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Creating symlink '/dev/disk/by-id/usb-Kingston_DataTraveler_3.0_08606E6B6896B020181E01E0-0:0-part1' to '../../sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Creating symlink '/dev/disk/by-label/ESD-USB' to '../../sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Creating symlink '/dev/disk/by-path/pci-0000:00:14.0-usb-0:7:1.0-scsi-0:0:0:0-part1' to '../../sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: sd-device: Created db file '/run/udev/data/b8:1' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/host4/target4:0:0/4:0:0:0/block/sda/sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Running command "/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1"
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Starting '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11845.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1'(err) 'auto-import is disabled on classic'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' succeeded.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Running command "/usr/local/bin/trigger.sh"
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Starting '/usr/local/bin/trigger.sh'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: Successfully forked off '(spawn)' as PID 11851.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Process '/usr/local/bin/trigger.sh' succeeded.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Adding watch on '/dev/sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: sd-device: Created db file '/run/udev/data/b8:1' for '/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/host4/target4:0:0/4:0:0:0/block/sda/sda1'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: Device (SEQNUM=21361, ACTION=add) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: sda1: sd-device-monitor: Passed 1428 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[443]: 4:0:0:0: sd-device-monitor: Passed 243 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Processing device (SEQNUM=21362, ACTION=bind)
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: value '[dmi/id]sys_vendor' is 'Micro-Star International Co., Ltd.'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: /lib/udev/rules.d/50-udev-default.rules:14 Importing properties from results of builtin command 'hwdb --subsystem=scsi'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: No entry found from hwdb.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: /lib/udev/rules.d/50-udev-default.rules:14 Failed to run builtin 'hwdb --subsystem=scsi': No data available
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: path '[module/sg]' is '/sys/module/sg'
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: Device (SEQNUM=21362, ACTION=bind) processed
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd-udevd[11814]: 4:0:0:0: sd-device-monitor: Passed 243 byte to netlink monitor
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS systemd[1]: Finished Clean the /media/lizeren/ESD-USB mount point.
+Sep 11 11:03:44 lizeren-US-Desktop-Aegis-RS udisksd[1026]: Mounted /dev/sda1 at /media/lizeren/ESD-USB on behalf of uid 1000
